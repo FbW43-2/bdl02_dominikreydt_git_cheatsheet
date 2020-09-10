@@ -3,7 +3,7 @@
 
 ## 1. How to navigate with the Ubuntu terminal to your git repository folder
 ---
-Use `cd` to move between folders. E.g.:
+Use `cd` to move between folders. E.g.: 
 ```
 cd workspace
 cd bdl02_exampleguy_git_cheatsheet
@@ -127,7 +127,7 @@ ___
  
     This command sends the committed changes to a server. It is used to upload local repository content to a remote repository.
 
-
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/Octocat.png)
 
 
 
