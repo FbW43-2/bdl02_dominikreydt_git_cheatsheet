@@ -76,12 +76,35 @@ I can use these commands anytime, while you editing your files
     With `git status` I can see if some changes have happened and if some files are ready to be committed.
     It gives me an overview of the repository at that specific moment in time.
 
+    Messages given by `git status`:
+    
+    - > working tree clean
+
+    This means that no change has happenend in our project since our last `git commit`
+
+    - > nothing to commit
+
+    This means that no `git add` hass happened yet, so there is no change to commit
+
+    - > changes to be committed
+
+    This means that we have staged some changes with `git add .`, and we now need to commit
+
+    - > changes not staged for commit
+
+    This means that we need to use `git add .` to prepare some changes to be committed
+
+
 
 - `git log`
 
+This command shows the commit logs
 
 - `git diff`
 
+Shows what changes have happened in our project since the last `git add .`.
+- Lines marked in **red** are lines that were removed.
+- Lines marked in **green** are lines that were added.
 ___
 ---
 ## 4. Save changes
@@ -93,7 +116,10 @@ ___
     
 2. `git commit -m "meaningful message here"`
     
-    A commit is the Git equivalent of a "save".
+    A commit is the Git equivalent of a "save". Commits can be thought of as snapshots of our project at a given point in time.
+
+    To change a commit use `git rebase -i HEAD~3`
+     and follow the introductions in the file.
 
 3. `git push` 
  
