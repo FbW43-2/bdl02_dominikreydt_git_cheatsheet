@@ -102,7 +102,7 @@ This command shows the commit logs
 
 - `git diff`
 
-Shows what changes have happened in our project since the last `git add .`.
+Shows what changes have happened in our project since the last `git add .`
 - Lines marked in **red** are lines that were removed.
 - Lines marked in **green** are lines that were added.
 ___
@@ -129,6 +129,6 @@ ___
 
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/Octocat.png)
 
-
+# :shit:
 
 
