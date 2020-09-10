@@ -1,4 +1,4 @@
-# :shit: Git commands cheatsheet: the most useful git commands
+# Git commands cheatsheet: the most useful git commands
 
 
 ## 1. How to navigate with the Ubuntu terminal to your git repository folder
