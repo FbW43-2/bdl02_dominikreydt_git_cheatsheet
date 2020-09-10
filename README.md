@@ -118,6 +118,8 @@ ___
     
     A commit is the Git equivalent of a "save". Commits can be thought of as snapshots of our project at a given point in time.
 
+    You can also *quick-commit* by running `git commit -am "explanation and so on"`
+
     To change a commit use `git rebase -i HEAD~3`
      and follow the introductions in the file.
 
