@@ -136,7 +136,13 @@ ___
 
 3. `git checkout branch-name` switch to the new branch and work from there
 
-4. Type `git add -A` and 
+4. Type `git add -A`, `git commit -m "commit over 9000"` and `git push --set-upstream origin branch-name` to update the new branch on github. Now you can `git push`, for shure.
+
+From now on you work in the new branch and the Masterfile is saved on the gitHub Server.
+
+5. To delete a branch you have to leave the branch into another branch with `git checkout master`. Once that is done it is possible to delete the branch with `git branch -d branch-name` / to force `git branch -D branch-name`.
+
+
 
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/Octocat.png)
 
