@@ -142,6 +142,14 @@ ___
 
 5. To delete a branch you have to leave the branch into another branch with `git checkout master` (or any other branch). Once that is done it is possible to delete the branch with `git branch -d branch-name` / to force `git branch -D branch-name`.
 
+## Cloning
+
+To clone a repository from github simply use `git clone https://github.com/example_rep/example_rep.git` 
+
+If you want to commit updates to the cloned repository owner make shure you have the rights of the software owner to upload changes.
+
+
+
 
 
 
