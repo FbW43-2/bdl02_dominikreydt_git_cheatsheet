@@ -125,7 +125,18 @@ ___
 
 3. `git push` 
  
-    This command sends the committed changes to a server. It is used to upload local repository content to a remote repository.
+   This command sends the committed changes to a server. It is used to upload local repository content to a remote repository.
+
+## 5. Branching
+
+1. `git branch` or `git branch -l` will show your branches
+
+2. `git branch branch-name` create a new branch.
+    **Attention** this will not move you to the new branch.
+
+3. `git checkout branch-name` switch to the new branch and work from there
+
+4. Type `git add -A` and 
 
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/Octocat.png)
 
