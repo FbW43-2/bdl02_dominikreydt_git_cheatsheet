@@ -146,7 +146,7 @@ ___
 
 To clone a repository from github simply use `git clone https://github.com/example_rep/example_rep.git` 
 
-If you want to commit updates to the cloned repository owner make shure you have the rights of the software owner to upload changes.
+If you want to commit updates to the cloned repository owner, make shure that you have the rights to upload changes from the software owner.
 
 
 
