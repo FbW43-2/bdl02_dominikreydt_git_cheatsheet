@@ -127,7 +127,9 @@ Shows what changes have happened in our project since the last `git add .`
  
    This command sends the committed changes to a server. It is used to upload local repository content to a remote repository.
 
+---
 ## 5. Branching
+---
 
 1. `git branch` or `git branch -l` will show your branches
 
@@ -142,21 +144,18 @@ Shows what changes have happened in our project since the last `git add .`
 
 5. To delete a branch you have to leave the branch into another branch with `git checkout master` (or any other branch). Once that is done it is possible to delete the branch with `git branch -d branch-name` / to force `git branch -D branch-name`.
 
-
-## Cloning
+---
+## 6. Cloning
+---
 
 To clone a repository from github simply use `git clone https://github.com/example_rep/example_rep.git` 
 
 If you want to commit updates to the cloned repository owner, make shure that you have the rights to upload changes from the software owner.
-***
 
-`git fetch`
+To prevent the master create your own branch with `git branch branch-name` and `git checkout branch-name`
+to work in your new branch.
 
-The git fetch command downloads commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.
-
-***
-
-Assuming:
+### Assuming:
 - we are on a separate branch. Note: it can be checked by running git branch -l
 
 - we have added and committed all our changes
@@ -176,13 +175,17 @@ Save our changes to the server.
 
 3) `git push` and you are ready to go.
 
-***
 
-## FYI
+`git fetch`
 
+The git fetch command downloads commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.
+
+---
+## 9001. FYI
+---
 | All hail to the CHOSEN ONE the son of the all mighty TERMINAL of all time! Praise the holy KERNEL for his givings in the universe. | lol | OMFG! |
 |---|:---:|---:|
-| **A table row to crush them all to the deepest ground off evil hell. This column will be filled with the bold text of boldness.** |`A centre aligned tabel column for the holy lord known as THE CHOSEN ONE.` | *Right alignment for right columns. To praise the great eternity of the all mighty TERMINAL!* |
+| **A table row to crush them all to the deepest ground of evil hell. This column will be filled with the bold text of boldness.** |`A centre aligned tabel column for the holy lord known as THE CHOSEN ONE.` | *Right alignment for right columns. To praise the great eternity of the all mighty TERMINAL!* |
 
 
 
