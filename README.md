@@ -158,8 +158,10 @@ The git fetch command downloads commits, files, and refs from a remote repositor
 
 Assuming:
 - we are on a separate branch. Note: it can be checked by running git branch -l
+
 - we have added and committed all our changes
-we are now ready to merge our changes back to the main branch (which is usually master). It's time to:
+
+- we are now ready to merge our changes back to the main branch (which is usually master). It's time to:
 
 1) Move to branch that you want to merge your changes on.
 
@@ -169,7 +171,7 @@ we are now ready to merge our changes back to the main branch (which is usually 
     `git pull`
     
 2) Merge the changes from the source branch (the one where we committed our changes on) with:
-    `git merge my-username/source-branch`
+    `git merge branch-name`
 Save our changes to the server.
 
 3) `git push` and you are ready to go.
