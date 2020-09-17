@@ -148,6 +148,11 @@ ___
 To clone a repository from github simply use `git clone https://github.com/example_rep/example_rep.git` 
 
 If you want to commit updates to the cloned repository owner, make shure that you have the rights to upload changes from the software owner.
+***
+
+`git fetch`
+
+The git fetch command downloads commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.
 
 ***
 
