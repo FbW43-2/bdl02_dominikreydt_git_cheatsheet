@@ -43,7 +43,7 @@ Rename a file with `mv`
 ~/workspace/ mv REDME.md README.md
 ```
 
-___
+
 
 ---
 ## 2. Initialize a new git repository
@@ -51,7 +51,7 @@ ___
 
 If any `git` command that we run gives the following output:
 
->fatal: not a git repository (or any of the parent directories): .git
+> fatal: not a git repository (or any of the parent directories): .git
 
 it means that we are not inside a git repository.
 
@@ -65,7 +65,7 @@ To initialize a new repository simply use `git init`
 ~/workspace/bdl02_exampleguy_git_cheatsheet/ git init
 ```
 Once this is done your new git repository is ready to go.
-___
+
 ---
 ## 3. Check the status of the repository
 ---
@@ -105,7 +105,7 @@ This command shows the commit logs
 Shows what changes have happened in our project since the last `git add .`
 - Lines marked in **red** are lines that were removed.
 - Lines marked in **green** are lines that were added.
-___
+
 ---
 ## 4. Save changes
 ---
