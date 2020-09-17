@@ -142,12 +142,31 @@ ___
 
 5. To delete a branch you have to leave the branch into another branch with `git checkout master` (or any other branch). Once that is done it is possible to delete the branch with `git branch -d branch-name` / to force `git branch -D branch-name`.
 
+***
+
+Assuming:
+- we are on a separate branch. Note: it can be checked by running git branch -l
+- we have added and committed all our changes
+we are now ready to merge our changes back to the main branch (which is usually master). It's time to:
+1) Move to branch that you want to merge your changes on.
+    E.g: git checkout master
+    
+    after checking out on master, its always good practice to pull the latest changes from the origin with:
+    git pull
+    
+2) Merge the changes from the source branch (the one where we committed our changes on) with:
+    git merge my-username/source-branch
+Save our changes to the server
+3) git push
+
+***
 ## Cloning
 
 To clone a repository from github simply use `git clone https://github.com/example_rep/example_rep.git` 
 
 If you want to commit updates to the cloned repository owner, make shure that you have the rights to upload changes from the software owner.
 
+## 
 
 
 
