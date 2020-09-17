@@ -142,31 +142,40 @@ ___
 
 5. To delete a branch you have to leave the branch into another branch with `git checkout master` (or any other branch). Once that is done it is possible to delete the branch with `git branch -d branch-name` / to force `git branch -D branch-name`.
 
-***
 
-Assuming:
-- we are on a separate branch. Note: it can be checked by running git branch -l
-- we have added and committed all our changes
-we are now ready to merge our changes back to the main branch (which is usually master). It's time to:
-1) Move to branch that you want to merge your changes on.
-    E.g: git checkout master
-    
-    after checking out on master, its always good practice to pull the latest changes from the origin with:
-    git pull
-    
-2) Merge the changes from the source branch (the one where we committed our changes on) with:
-    git merge my-username/source-branch
-Save our changes to the server
-3) git push
-
-***
 ## Cloning
 
 To clone a repository from github simply use `git clone https://github.com/example_rep/example_rep.git` 
 
 If you want to commit updates to the cloned repository owner, make shure that you have the rights to upload changes from the software owner.
 
-## 
+***
+
+Assuming:
+- we are on a separate branch. Note: it can be checked by running git branch -l
+- we have added and committed all our changes
+we are now ready to merge our changes back to the main branch (which is usually master). It's time to:
+
+1) Move to branch that you want to merge your changes on.
+
+    E.g: `git checkout master`
+    
+    After checking out on master, its always good practice to pull the latest changes from the origin with:
+    `git pull`
+    
+2) Merge the changes from the source branch (the one where we committed our changes on) with:
+    `git merge my-username/source-branch`
+Save our changes to the server.
+
+3) `git push` and you are ready to go.
+
+***
+
+## FYI
+
+| All hail to the CHOSEN ONE the son of the all mighty TERMINAL of all time! Praise the holy KERNEL for his givings in the universe. | lol | OMFG! |
+|---|:---:|---:|
+| **A table row to crush them all to the deepest ground off evil hell. This column will be filled with the bold text of boldness.** |`A centre aligned tabel column for the holy lord known as THE CHOSEN ONE.` | *Right alignment for right columns. To praise the great eternity of the all mighty TERMINAL!* |
 
 
 
